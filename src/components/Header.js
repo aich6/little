@@ -1,4 +1,4 @@
-import ll from "../assets/logo.jpg"
+import ll from "../assets/logo.png"
 function Header() {
     return (
       <header>
