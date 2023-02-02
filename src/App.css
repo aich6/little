@@ -34,3 +34,61 @@ header img {
   width: 50%;
 
 }
+
+form{
+  display: grid; 
+  max-width: 200px; 
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  border: 2px dotted lightblue;
+  background-color: wheat;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  box-shadow:  10px 15px 15px lightblue;
+}
+
+input[type=submit]{
+  background-color: lightcoral;
+  padding: 1rem;
+  opacity:  0.8;
+  border: 0;
+  color: white;
+  transition: 1s;
+}
+input[type="date"]{
+  background-color: coral;
+  padding: 15px;
+
+
+  font-family: "Roboto Mono",monospace;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  
+}
+input:Hover[type=submit]{
+  background-color: lightcoral;
+  opacity: 1;
+  padding: 1rem;
+  border: 0;
+  color: black;
+  box-shadow: 5px 5px 5px 5px lightsalmon;
+  transition: 1s;
+  transform: scale(500px);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input{
+  padding-top: 2px;
+}
